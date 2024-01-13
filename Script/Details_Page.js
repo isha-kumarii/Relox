@@ -288,6 +288,9 @@ function saveToMyList(id){
 
 }
 
+
+//Comment section Js
+
 const notesContainer = document.querySelector(".notes-container");
 const createBtn = document.querySelector(".btn");
 let notes = document.querySelectorAll(".input-box");
@@ -331,3 +334,5 @@ document.addEventListener("keydown", event =>{
         event.preventDefault();
     }
 })
+
+//Comment section Script ends
